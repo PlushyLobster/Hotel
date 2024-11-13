@@ -89,7 +89,7 @@
                                 <form class="pos-ajout" method="POST" action="index.php">
                                     <input type="hidden" name="gestion" value="paymenttypes">
                                     <input type="hidden" name="action" value="form_ajouter">
-                                    <label>Ajouter un type de paiement : 
+                                    <label>Ajouter une réservation : 
                                         <input id="aImage" type="image" name="btn_ajouter" src='public/images/icones/a16.png'>
                                     </label>
                                 </form>
