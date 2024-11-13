@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-10-15 09:39:46
+/* Smarty version 4.3.4, created on 2024-11-13 15:09:39
   from '/Applications/MAMP/htdocs/hotels/public/left.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_670e3862e2eb33_26974943',
+  'unifunc' => 'content_6734c133bd2760_18367135',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '978bfb6c800ac86651eca285f290c656734cce24' => 
     array (
       0 => '/Applications/MAMP/htdocs/hotels/public/left.tpl',
-      1 => 1728985181,
+      1 => 1731510576,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_670e3862e2eb33_26974943 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6734c133bd2760_18367135 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
@@ -54,16 +54,9 @@ function content_670e3862e2eb33_26974943 (Smarty_Internal_Template $_smarty_tpl)
                             <li><i class="fa fa-table"></i><a href="#A VOUS D'ECRIRE LE LIEN">Nouveau</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#A VOUS D'ECRIRE LE LIEN" > <i class="menu-icon fa fa-th"></i>Mon profil</a>
-                        
-                    </li>
-
-                    <h3 class="menu-title">xxxxx</h3><!-- /.menu-title -->
 
                     <li class="dropdown">
-                        <a href="#A VOUS D'ECRIRE LE LIEN"> <i class="menu-icon fa fa-tasks"></i>xxxxx</a>
-                         
+                        <a href="#A VOUS D'ECRIRE LE LIEN"> <i class="menu-icon fa fa-tasks"></i>xxxxx</a>   
                         
                     </li>
                     <li>

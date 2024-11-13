@@ -87,7 +87,7 @@
                             <strong class="card-title">{$titrePage}
 
                                 <form class="pos-ajout" method="POST" action="index.php">
-                                    <input type="hidden" name="gestion" value="paymenttypes">
+                                    <input type="hidden" name="gestion" value="reservations">
                                     <input type="hidden" name="action" value="form_ajouter">
                                     <label>Ajouter une réservation : 
                                         <input id="aImage" type="image" name="btn_ajouter" src='public/images/icones/a16.png'>

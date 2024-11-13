@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-10-15 13:03:04
+/* Smarty version 4.3.4, created on 2024-11-13 14:23:46
   from '/Applications/MAMP/htdocs/hotels/mod_reservations/vue/ReservationsListeVue.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_670e6808ef0b02_17874050',
+  'unifunc' => 'content_6734b67233b4b6_63588450',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6887989e5fb0262f2923f47d97118920570fc630' => 
     array (
       0 => '/Applications/MAMP/htdocs/hotels/mod_reservations/vue/ReservationsListeVue.tpl',
-      1 => 1728997378,
+      1 => 1731507807,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:public/header.tpl' => 1,
   ),
 ),false)) {
-function content_670e6808ef0b02_17874050 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6734b67233b4b6_63588450 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
@@ -119,9 +119,9 @@ function content_670e6808ef0b02_17874050 (Smarty_Internal_Template $_smarty_tpl)
 
 
                                 <form class="pos-ajout" method="POST" action="index.php">
-                                    <input type="hidden" name="gestion" value="paymenttypes">
+                                    <input type="hidden" name="gestion" value="reservations">
                                     <input type="hidden" name="action" value="form_ajouter">
-                                    <label>Ajouter un type de paiement : 
+                                    <label>Ajouter une réservation : 
                                         <input id="aImage" type="image" name="btn_ajouter" src='public/images/icones/a16.png'>
                                     </label>
                                 </form>

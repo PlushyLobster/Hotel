@@ -31,16 +31,9 @@
                             <li><i class="fa fa-table"></i><a href="#A VOUS D'ECRIRE LE LIEN">Nouveau</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#A VOUS D'ECRIRE LE LIEN" > <i class="menu-icon fa fa-th"></i>Mon profil</a>
-                        
-                    </li>
-
-                    <h3 class="menu-title">xxxxx</h3><!-- /.menu-title -->
 
                     <li class="dropdown">
-                        <a href="#A VOUS D'ECRIRE LE LIEN"> <i class="menu-icon fa fa-tasks"></i>xxxxx</a>
-                         
+                        <a href="#A VOUS D'ECRIRE LE LIEN"> <i class="menu-icon fa fa-tasks"></i>xxxxx</a>   
                         
                     </li>
                     <li>

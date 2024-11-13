@@ -1,5 +1,7 @@
 <?php
 
+require_once 'reservationsTable.php';
+
 class ReservationsControleur
 {
     private $parametre = array(); //tableau
@@ -43,7 +45,7 @@ class ReservationsControleur
 
     public function form_ajouter()
     {
-        $valeurs = new ReservationTable();
+        $valeurs = new ReservationsTable();
         $action = $_POST["action"];
         $this->oVue->genererAffichageFiche($valeurs, $action);
     }
