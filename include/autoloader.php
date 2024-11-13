@@ -36,7 +36,11 @@ class Autoloader{
             'mod_reservations/',
             'mod_reservations/controleur/',
             'mod_reservations/modele/',
-            'mod_reservations/vue/'
+            'mod_reservations/vue/',
+            'mod_rooms/',
+            'mod_rooms/controleur/',
+            'mod_rooms/modele/',
+            'mod_rooms/vue/'
         );
 
         //Recherche dans chaque répertoire listé

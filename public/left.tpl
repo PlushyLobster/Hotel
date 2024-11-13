@@ -28,13 +28,14 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Reservations</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-table"></i><a href="index.php?gestion=reservations">Liste</a></li>
-                            <li><i class="fa fa-table"></i><a href="#A VOUS D'ECRIRE LE LIEN">Nouveau</a></li>
                         </ul>
                     </li>
 
-                    <li class="dropdown">
-                        <a href="#A VOUS D'ECRIRE LE LIEN"> <i class="menu-icon fa fa-tasks"></i>xxxxx</a>   
-                        
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Chambres</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-table"></i><a href="index.php?gestion=room">Liste</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#"> <i class="menu-icon ti-email"></i>xxxxxx</a>
