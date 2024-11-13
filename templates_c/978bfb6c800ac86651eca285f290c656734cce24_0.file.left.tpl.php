@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 15:09:39
+/* Smarty version 4.3.4, created on 2024-11-13 15:54:32
   from '/Applications/MAMP/htdocs/hotels/public/left.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6734c133bd2760_18367135',
+  'unifunc' => 'content_6734cbb88f5019_19801400',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '978bfb6c800ac86651eca285f290c656734cce24' => 
     array (
       0 => '/Applications/MAMP/htdocs/hotels/public/left.tpl',
-      1 => 1731510576,
+      1 => 1731513269,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6734c133bd2760_18367135 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6734cbb88f5019_19801400 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Left Panel -->
 
     <aside id="left-panel" class="left-panel">
@@ -51,13 +51,14 @@ function content_6734c133bd2760_18367135 (Smarty_Internal_Template $_smarty_tpl)
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Reservations</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-table"></i><a href="index.php?gestion=reservations">Liste</a></li>
-                            <li><i class="fa fa-table"></i><a href="#A VOUS D'ECRIRE LE LIEN">Nouveau</a></li>
                         </ul>
                     </li>
 
-                    <li class="dropdown">
-                        <a href="#A VOUS D'ECRIRE LE LIEN"> <i class="menu-icon fa fa-tasks"></i>xxxxx</a>   
-                        
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Chambres</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-table"></i><a href="index.php?gestion=room">Liste</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#"> <i class="menu-icon ti-email"></i>xxxxxx</a>

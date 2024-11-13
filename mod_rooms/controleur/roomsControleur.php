@@ -1,6 +1,6 @@
 <?php
 
-class ReservationsControleur
+class RoomsControleur
 {
     private $parametre = array(); //tableau
     private $oModele; // Object
@@ -10,59 +10,59 @@ class ReservationsControleur
     {
         $this->parametre = $parametre;
 
-        $this->oModele = new ReservationsModele($parametre);
-        $this->oVue = new ReservationsVue($parametre);
+        $this->oModele = new RoomsModele($parametre);
+        $this->oVue = new RoomsVue($parametre);
     }
 
     public function lister()
     {
-        $valeurs = $this->oModele->getListReservations();
-        $this->oVue->genererAffichageReservations($valeurs);
+        $valeurs = $this->oModele->getListRooms();
+        $this->oVue->genererAffichageRooms($valeurs);
     }
 
     public function form_consulter()
     {
-        $valeurs = $this->oModele->getUneReservation();
+        $valeurs = $this->oModele->getUneRoom();
         $action = $_POST["action"];
         $this->oVue->genererAffichageFiche($valeurs, $action);
     }
 
     public function form_modifier()
     {
-        $valeurs = $this->oModele->getUneReservation();
+        $valeurs = $this->oModele->getUneRoom();
         $action = $_POST["action"];
         $this->oVue->genererAffichageFiche($valeurs, $action);
     }
 
     public function form_supprimer()
     {
-        $valeurs = $this->oModele->getUneReservation();
+        $valeurs = $this->oModele->getUneRoom();
         $action = $_POST["action"];
         $this->oVue->genererAffichageFiche($valeurs, $action);
     }
 
     public function form_ajouter()
     {
-        $valeurs = new ReservationsTable();
+        $valeurs = new RoomsTable();
         $action = $_POST["action"];
         $this->oVue->genererAffichageFiche($valeurs, $action);
     }
 
     public function modifier()
     {
-        $this->oModele->updateUneReservation();
+        $this->oModele->updateUneRoom();
         $this->lister();
     }
 
     public function ajouter()
     {
-        $this->oModele->insertUneReservation();
+        $this->oModele->insertUneRoom();
         $this->lister();
     }
 
     public function supprimer()
     {
-        $this->oModele->deleteUneReservation();
+        $this->oModele->deleteUneRoom();
         $this->lister();
     }
 }
